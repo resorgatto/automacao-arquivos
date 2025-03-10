@@ -84,7 +84,7 @@ def rename_pdfs(folder_path):
                 company_name = " ".join(parts[:date_index])
                 
                 
-                company_name = re.sub(r'\bBRAVEND\b', '', company_name, flags=re.IGNORECASE).strip()
+                company_name = re.sub(r'\bBRAVEND\b', '', company_name, flags=re.IGNORECASE).strip() # Se desejar utilizar o código em sua empresa, alterar o nome da empresa aqui
                 
                 
                 company_name = re.sub(r'\b[A-Z0-9-]{8,}\b', '', company_name).strip()
