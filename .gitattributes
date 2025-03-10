@@ -1,3 +1,4 @@
 *.py linguist-detectable=true
-*.tex linguist-documentation
 *.md linguist-documentation
+*.txt linguist-documentation
+*.spec linguist-documentation
