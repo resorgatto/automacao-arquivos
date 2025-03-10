@@ -1,5 +1,8 @@
 *.py linguist-detectable=true
+*.txt linguist-detectable=false
+*.tex linguist-detectable=false
 *.html linguist-detectable=false
 .venv/* linguist-vendored
 build/* linguist-vendored
 dist/* linguist-vendored
+
